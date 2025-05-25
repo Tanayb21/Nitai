@@ -1,7 +1,12 @@
 [build]
   base = "/"
-  publish = "resources/views/"
-  command = ""
+  publish = "resources/views/lander"
+  command = "# no build command needed"
+
+[[redirects]]
+  from = "/"
+  to = "/index.html"
+  status = 200
 
 [[redirects]]
   from = "/*"
